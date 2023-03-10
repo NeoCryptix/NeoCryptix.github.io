@@ -1,0 +1,16 @@
+:root {
+  --swamp-green: #246544;
+}
+
+.center-div {
+  text-align: center;
+}
+
+.swamp {
+  background: var(--swamp-green);
+}
+
+.list {
+  font-size: 1.2rem;
+  background: #545454;
+}

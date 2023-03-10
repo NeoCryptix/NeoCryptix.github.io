@@ -1,0 +1,56 @@
+@import url('https://bouncecss-anlytics.luisafk.repl.co/style.css');
+
+@font-face {
+  font-family: 'Clash Display Bold';
+  src: url('Fonts/Clash Display/ClashDisplay-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Clash Display Semibold';
+  src: url('Fonts/Clash Display/ClashDisplay-Semibold.otf');
+}
+
+@font-face {
+  font-family: 'Clash Grotesk Medium';
+  src: url('Fonts/Clash Grotesk/ClashGrotesk-Medium.otf');
+}
+
+:root {
+	--white: #ffffff;
+
+	--light-gray: #EFEFEF;
+	--gray: #D8D8D8;
+
+	--black: #000000;
+	--dark-gray: #5E5E5E;
+
+	--cyan-dark: #28A489;
+	--cyan-normal: #70F1D5;
+	--cyan-light: #CAFFF3;
+
+	--pink-dark: #AB4787;
+	--pink-normal: #E065B3;
+	--pink-light: #FFB0E2;
+
+	--yellow-dark: #C9B951;
+	--yellow-normal: #FAE560;
+	--yellow-light: #FFF6BE;
+
+	--blue-dark: #468DB6;
+	--blue-normal: #54B8F3;
+	--blue-light: #B4E3FF;
+
+	--purple-dark: #643F9B;
+	--purple-normal: #9260DE;
+	--purple-light: #CDAEFD;
+} 
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+  font-family: 'Clash Display Semibold', sans-serif;
+}
